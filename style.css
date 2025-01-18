@@ -1,0 +1,73 @@
+/* GENERAL */
+@font-face {
+	font-family: ShortBaby;
+	src: url(assets/fonts/ShortBaby-Mg2w.ttf);
+}
+body {
+	font-family: "Sedan SC", serif;
+}
+/* GENERAL END */
+
+/* MAIN */
+main {
+	display: grid;
+	grid-template-columns: 1fr 5fr;
+	gap: 20px;
+	padding: 20px;
+}
+/* Navigation */
+.left {
+	background-color: black;
+	height: 93vh;
+	display: flex;
+	flex-direction: column;
+	position: sticky;
+	top: 20px;
+	border-radius: 21px;
+}
+.profile {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 10px;
+}
+.profile img {
+	width: 65%;
+	height: 70%;
+	margin-top: 15px;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.profile p {
+	color: white;
+	font-size: 1.3rem;
+	font-weight: 500;
+}
+.nav {
+	color: white;
+	display: flex;
+	padding-right: 20px;
+	margin: 35px 50px;
+	font-size: 1.2rem;
+	text-align: left;
+}
+.nav:hover {
+	color: gold;
+}
+.icons {
+	width: 19.32px;
+}
+.nav > a {
+	color: white;
+	text-decoration: none;
+	padding-left: 20px;
+	font-weight: 300;
+}
+.nav > a:hover {
+	color: rgb(217, 217, 217);
+}
+/* Content */
+.right {
+	background-color: cyan;
+}
+/* MAIN END */
