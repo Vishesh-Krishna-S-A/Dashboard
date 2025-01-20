@@ -71,7 +71,7 @@ main {
 .right {
 	margin: 0 50px;
 }
-	/* Heading */
+/* Heading */
 header {
 	display: flex;
 	flex-wrap: wrap;
@@ -86,13 +86,13 @@ header > h1 {
 }
 header > input {
 	width: 20%;
-    min-width: 15rem;
-    height: 2.1rem;
-    padding: 2px 12px;
-    border: none;
-    border-radius: 20px;
-    position: relative;
-    bottom: 8px;
+	min-width: 15rem;
+	height: 2.1rem;
+	padding: 2px 12px;
+	border: none;
+	border-radius: 20px;
+	position: relative;
+	bottom: 8px;
 	font-size: 1rem;
 }
 header > input:focus {
@@ -101,5 +101,10 @@ header > input:focus {
 }
 header > input::placeholder {
 	color: #ababab;
+}
+/* Activities */
+#board {
+	background-color: #fff;
+	width: 85%;
 }
 /* MAIN END */
