@@ -5,6 +5,7 @@
 }
 body {
 	font-family: "Sedan SC", serif;
+	background-color: #ededed;
 }
 /* GENERAL END */
 
@@ -35,8 +36,8 @@ main {
 	width: 65%;
 	height: 70%;
 	margin-top: 15px;
-    border: 3px solid white;
-    border-radius: 50%;
+	border: 3px solid white;
+	border-radius: 50%;
 }
 .profile p {
 	color: white;
@@ -68,6 +69,37 @@ main {
 }
 /* Content */
 .right {
-	background-color: cyan;
+	margin: 0 50px;
+}
+	/* Heading */
+header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: baseline;
+	margin: 0 0 20px;
+	gap: 30px 50px;
+}
+header > h1 {
+	font-size: 3rem;
+	margin: 0 50px 0 0;
+}
+header > input {
+	width: 20%;
+    min-width: 15rem;
+    height: 2.1rem;
+    padding: 2px 12px;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+    bottom: 8px;
+	font-size: 1rem;
+}
+header > input:focus {
+	outline: none;
+	border: 3px solid lightgreen;
+}
+header > input::placeholder {
+	color: #ababab;
 }
 /* MAIN END */
