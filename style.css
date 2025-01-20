@@ -119,8 +119,22 @@ header > input::placeholder {
 }
 /* activity board */
 #board {
-  background-color: #fff;
-  width: 85%;
+	background-color: #fff;
+    width: 85%;
+    border-radius: 20px;
+	margin: 65px auto;
+    padding: 10px 20px 20px;
 }
-
+#board img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+/* data */
+#data {
+	
+}
+.dashboard-data {
+	font-family: ShortBaby;
+}
 /* MAIN END */
