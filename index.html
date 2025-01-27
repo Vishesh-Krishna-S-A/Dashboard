@@ -1,142 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Dashboard, Personal Dashboard" />
-    <meta name="author" content="visheshkrishnasa" />
-    <title>Dashboard</title>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="Dashboard, Personal Dashboard" />
+		<meta name="author" content="visheshkrishnasa" />
+		<title>Dashboard</title>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css" />
+		<!-- CSS -->
+		<link rel="stylesheet" href="style.css" />
 
-    <!-- FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap"
-      rel="stylesheet"
-    />
+		<!-- FONTS -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap" rel="stylesheet" />
 
-    <!-- FONTAWESOME ICONS -->
-    <script
-      src="https://kit.fontawesome.com/44b80dfa64.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
-    <main>
-      <!-- LEFT SECTION -->
-      <section class="left">
-        <!-- Profile -->
-        <div class="profile">
-          <img src="assets/images/profile-pic.png" alt="Profile Picture" />
-          <p>Vishesh Krishna S A</p>
-        </div>
-        <!-- Profile End -->
+		<!-- FONTAWESOME ICONS -->
+		<script src="https://kit.fontawesome.com/44b80dfa64.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<main>
+			<!-- LEFT SECTION -->
+			<section class="left">
+				<!-- Profile -->
+				<div class="profile">
+					<img src="assets/images/profile-pic.png" alt="Profile Picture" />
+					<p>Vishesh Krishna S A</p>
+				</div>
+				<!-- Profile End -->
 
-        <!-- Divider -->
-        <div class="line"></div>
-        <!-- Divider End -->
+				<!-- Divider -->
+				<div class="line"></div>
+				<!-- Divider End -->
 
-        <!-- Navigation Menu -->
-        <div class="navigation">
-          <div class="nav">
-            <i class="fa-solid fa-list-ul icons"></i>
-            <a href="#board">Dashboard</a>
-          </div>
-          <div class="nav">
-            <i class="fa-solid fa-tags icons"></i>
-            <a href="#data">Data</a>
-          </div>
-          <div class="nav">
-            <i class="fa-solid fa-users icons"></i>
-            <a href="#users">Users</a>
-          </div>
-          <div class="nav">
-            <i class="fa-solid fa-calendar-days icons"></i>
-            <a href="#schedule">Schedule</a>
-          </div>
-          <div class="nav">
-            <i class="fa-solid fa-address-card icons"></i>
-            <a href="#contact">Contact</a>
-          </div>
-        </div>
-        <!-- Navigation Menu End -->
-      </section>
-      <!-- LEFT SECTION END -->
+				<!-- Navigation Menu -->
+				<div class="navigation">
+					<div class="nav">
+						<i class="fa-solid fa-list-ul icons"></i>
+						<a href="#board">Dashboard</a>
+					</div>
+					<div class="nav">
+						<i class="fa-solid fa-tags icons"></i>
+						<a href="#dashboard-data">Data</a>
+					</div>
+					<div class="nav">
+						<i class="fa-solid fa-users icons"></i>
+						<a href="#user-interaction">User</a>
+					</div>
+					<div class="nav">
+						<i class="fa-solid fa-calendar-days icons"></i>
+						<a href="#schedule">Schedule</a>
+					</div>
+					<div class="nav">
+						<i class="fa-solid fa-address-card icons"></i>
+						<a href="#contact">Contact</a>
+					</div>
+				</div>
+				<!-- Navigation Menu End -->
+			</section>
+			<!-- LEFT SECTION END -->
 
-      <!-- RIGHT SECTION -->
-      <section class="right">
-        <!-- Header -->
-        <header>
-          <h1>DashBoard</h1>
-          <input type="text" name="text" id="text" placeholder="search..." />
-        </header>
-        <!-- Header End -->
+			<!-- RIGHT SECTION -->
+			<section class="right">
+				<!-- Header -->
+				<header>
+					<h1 id="dashboard">DashBoard</h1>
+					<input type="text" name="text" id="text" placeholder="search..." />
+				</header>
+				<!-- Header End -->
 
-        <!-- Activity Board -->
-        <article id="board">
-          <div>
-            <h3>Activities</h3>
-            <p>May - June 2024</p>
-          </div>
-          <div>
-            <img src="assets/images/line-graph.png" alt="Activities Graph" />
-          </div>
-        </article>
-        <!-- Activity Board End -->
+				<!-- Activity Board -->
+				<article id="board">
+					<div>
+						<h3>Activities</h3>
+						<p>May - June 2024</p>
+					</div>
+					<div>
+						<img src="assets/images/line-graph.png" alt="Activities Graph" />
+					</div>
+				</article>
+				<!-- Activity Board End -->
 
-        <!-- Dashboard Data -->
-        <article id="data">
-          <h3>Dashboard Data</h3>
-          <div class="dashboard-data">
-            <div class="data-item" id="data-item1">
-              <div></div>
-              <div>
-                <p>
-                  Total Revenue <br />
-                  $756,553,563
-                </p>
-              </div>
-            </div>
-            <div class="data-item" id="data-item2">
-              <div></div>
-              <div>
-                <p>
-                  Total Transaction <br />
-                  3,450
-                </p>
-              </div>
-            </div>
-            <div class="data-item" id="data-item3">
-              <div></div>
-              <div>
-                <p>
-                  Total Likes <br />
-                  2,445
-                </p>
-              </div>
-            </div>
-            <div class="data-item" id="data-item4">
-              <div></div>
-              <div>
-                <p>
-                  Total User <br />
-                  674
-                </p>
-              </div>
-            </div>
-          </div>
-        </article>
-        <!-- Dashboard Data End -->
+				<!-- Dashboard Data -->
+				<article id="dashboard-data">
+					<h2>Dashboard Data</h2>
+					<div class="data">
+						<div class="data-item" id="data-item1">
+							<i class="fa-solid fa-dollar-sign"></i>
+							<p class="data-head">Total Revenue</p>
+							<p class="data-content">$756,553,563</p>
+						</div>
+						<div class="data-item" id="data-item2">
+							<i class="fa-solid fa-tag"></i>
+							<p class="data-head">Total Transaction</p>
+							<p class="data-content">3,450</p>
+						</div>
+						<div class="data-item" id="data-item3">
+							<i class="fa-solid fa-thumbs-up"></i>
+							<p class="data-head">Total Likes</p>
+							<p class="data-content">2,445</p>
+						</div>
+						<div class="data-item" id="data-item4">
+							<i class="fa-solid fa-user"></i>
+							<p class="data-head">Total User</p>
+							<p class="data-content">674</p>
+						</div>
+					</div>
+				</article>
+				<!-- Dashboard Data End -->
 
-        <article id="users"></article>
-        <article id="schedule"></article>
-        <article id="contact"></article>
-        <footer></footer>
-      </section>
-      <!-- RIGHT SECTION END -->
-    </main>
-  </body>
+				<!-- User Interactions -->
+				<article id="user-interaction"></article>
+				<!-- User Interactions End -->
+
+				<article id="schedule"></article>
+				<article id="contact"></article>
+				<footer></footer>
+			</section>
+			<!-- RIGHT SECTION END -->
+		</main>
+	</body>
 </html>
