@@ -148,14 +148,6 @@ header > input::placeholder {
 	width: 95%;
 	margin: 100px auto 120px;
 }
-#dashboard-data > h2 {
-	text-align: center;
-	text-decoration: underline;
-}
-#dashboard-data > h2:hover {
-	font-size: 1.9rem;
-	text-decoration-color: orange;
-}
 .data {
 	font-family: ShortBaby;
 	display: flex;
@@ -199,8 +191,37 @@ header > input::placeholder {
 }
 /* user interactions */
 #user-interaction {
-	width: 85%;
+	width: 90%;
 	margin: 100px auto 120px;
+}
+.ui-tbl {
+	width: 100%;
+	min-width: 50%;
+	border-collapse: collapse;
+	margin-top: 50px;
+}
+.ui-tbl tr {
+	height: 60px;
+}
+.ui-tbl th,
+td {
+	padding-left: 14%;
+	text-align: left;
+}
+.ui-tbl-h {
+	background-color: #a29494;
+}
+.ui-tbl-b {
+	font-weight: 100;
+}
+.ui-tbl-b tr:nth-child(odd) {
+	background-color: white;
+}
+.ui-tbl-b tr:nth-child(even) {
+	background-color: #f7f7f7;
+}
+.ui-tbl-b tr:hover {
+	background-color: #e6e5e5;
 }
 
 /* MAIN END */
