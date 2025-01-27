@@ -143,10 +143,11 @@ header > input::placeholder {
 #dashboard-data > h2 {
 	text-align: center;
 	text-decoration: underline;
+	transition: text-decoration-color 0.5s ease, transform 0.5s ease;
 }
 #dashboard-data > h2:hover {
-	font-size: 1.9rem;
 	text-decoration-color: orange;
+	transform: scale(1.1);
 }
 .data {
 	font-family: ShortBaby;
@@ -197,10 +198,11 @@ header > input::placeholder {
 #user-interaction > h2 {
 	text-align: center;
 	text-decoration: underline;
+	transition: text-decoration-color 0.5s ease, transform 0.5s ease;
 }
 #user-interaction > h2:hover {
-	font-size: 1.9rem;
 	text-decoration-color: orange;
+	transform: scale(1.1);
 }
 .ui-tbl {
 	width: 100%;
@@ -250,15 +252,18 @@ td {
 	text-align: left;
 	text-decoration: none;
 }
+.sch-header > p {
+	cursor: pointer;
+}
 .sch-logs {
-	height: 415px;
+	height: 410px;
 	overflow-y: scroll;
 }
 .sch-item {
 	border-left: 3px solid lightgreen;
 	padding-left: 10px;
 }
-.sch-item:nth-child(odd) {
+.sch-item:nth-child(even) {
 	border-left: 3px solid blue;
 }
 .sch-item > h3 {
