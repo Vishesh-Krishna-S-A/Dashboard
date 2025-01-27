@@ -11,6 +11,14 @@ body {
 h1 {
 	font-size: 3rem;
 }
+h2 {
+	text-align: center;
+	text-decoration: underline;
+}
+h2:hover {
+	font-size: 1.9rem;
+	text-decoration-color: orange;
+}
 /* GENERAL END */
 
 /* MAIN */
@@ -163,7 +171,7 @@ header > input::placeholder {
 	position: relative;
 }
 .data-item:hover {
-	background: radial-gradient(circle at 50%, #f7b7c2, #a9a9f7);
+	background: radial-gradient(circle, #f7b7c2 0%, #a9a9f7 100%);
 }
 .data-item > i {
 	margin-bottom: 10px;
@@ -175,23 +183,24 @@ header > input::placeholder {
 	margin: 6px 0;
 }
 #data-item1 {
-	background-color: #a6eca6;
+	background-color: #cce3cc;
 }
 #data-item2 {
-	background-color: lightyellow;
+	background-color: #eee2bc;
 }
 #data-item3 {
-	background-color: #e7b8c9;
+	background-color: #e8c2d0;
 }
 #data-item4 {
-	background-color: #c8caf8;
+	background-color: #d3d4ef;
 }
 .data-head {
 	padding-top: 18px;
 }
-.data-content {
-}
 /* user interactions */
 #user-interaction {
+	width: 85%;
+	margin: 100px auto 120px;
 }
+
 /* MAIN END */
