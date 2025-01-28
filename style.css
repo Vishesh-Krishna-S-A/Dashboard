@@ -278,6 +278,63 @@ td {
 }
 /* contact */
 #contact {
+	width: 95%;
+	margin: 100px auto 120px;
 }
+#contact > h2 {
+	text-align: center;
+	text-decoration: underline;
+	transition: text-decoration-color 0.5s ease, transform 0.5s ease;
+}
+#contact > h2:hover {
+	text-decoration-color: orange;
+	transform: scale(1.2);
+}
+.contact-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 30px;
+	margin-top: 45px;
+}
+.map-container > iframe {
+	width: 100%;
+	border-radius: 40px;
+}
+.feedback-container {
+	background-color: white;
+	border-radius: 40px;
+	padding: 10px;
+}
+.feedback-container > h3 {
+	text-align: center;
+	text-decoration: underline;
+	font-size: 1.5rem;
+}
+.feedback-form input,
+textarea, button {
+	display: block;
+	margin: 15px auto;
+	width: 90%;
+	border: 1px solid #e1e1e1;
+	border-radius: 6px;
+	padding: 10px;
+}
+.feedback-form input {
+}
+.feedback-form textarea {
+}
+.feedback-form button {
+    margin: 20px auto;
+    width: 94%;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #00e800;
+    color: white;
+    border: none;
+}
+.feedback-form button:hover {
+    background-color: #00ff00;
+}
+
 /* footer */
 /* MAIN END */
