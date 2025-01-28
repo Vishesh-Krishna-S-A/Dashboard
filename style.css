@@ -122,6 +122,15 @@ header > input:focus {
 header > input::placeholder {
 	color: #ababab;
 }
+article h2 {
+	text-align: center;
+	text-decoration: underline;
+}
+article h2:hover {
+	text-decoration-color: orange;
+	font-size: 2rem;
+	transition: 0.7s;
+}
 /* activity board */
 #board {
 	background-color: #fff;
@@ -139,15 +148,6 @@ header > input::placeholder {
 #dashboard-data {
 	width: 95%;
 	margin: 100px auto 120px;
-}
-#dashboard-data > h2 {
-	text-align: center;
-	text-decoration: underline;
-	transition: text-decoration-color 0.5s ease, transform 0.5s ease;
-}
-#dashboard-data > h2:hover {
-	text-decoration-color: orange;
-	transform: scale(1.1);
 }
 .data {
 	font-family: ShortBaby;
@@ -194,15 +194,6 @@ header > input::placeholder {
 #user-interaction {
 	width: 95%;
 	margin: 100px auto 120px;
-}
-#user-interaction > h2 {
-	text-align: center;
-	text-decoration: underline;
-	transition: text-decoration-color 0.5s ease, transform 0.5s ease;
-}
-#user-interaction > h2:hover {
-	text-decoration-color: orange;
-	transform: scale(1.2);
 }
 .ui-tbl {
 	width: 100%;
@@ -252,6 +243,10 @@ td {
 	text-align: left;
 	text-decoration: none;
 }
+.sch-header > h2:hover {
+	transition: none;
+	font-size: 1.5em;
+}
 .sch-header > p {
 	cursor: pointer;
 	font-size: 1.05rem;
@@ -281,15 +276,6 @@ td {
 	width: 95%;
 	margin: 100px auto 120px;
 }
-#contact > h2 {
-	text-align: center;
-	text-decoration: underline;
-	transition: text-decoration-color 0.5s ease, transform 0.5s ease;
-}
-#contact > h2:hover {
-	text-decoration-color: orange;
-	transform: scale(1.2);
-}
 .contact-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -312,7 +298,8 @@ td {
 	font-size: 1.5rem;
 }
 .feedback-form input,
-textarea, button {
+textarea,
+button {
 	display: block;
 	margin: 16px auto;
 	width: 90%;
@@ -325,16 +312,39 @@ textarea, button {
 	height: 150px;
 }
 .feedback-form button {
-    margin: 20px auto;
-    width: 94%;
-    font-size: 15px;
-    font-weight: bold;
-    background-color: #00e800;
-    color: white;
-    border: none;
+	margin: 20px auto;
+	width: 94%;
+	font-size: 15px;
+	font-weight: bold;
+	background-color: #00e800;
+	color: white;
+	border: none;
 }
 .feedback-form button:hover {
-    background-color: #57d557;
+	background-color: #57d557;
 }
 /* footer */
+footer {
+	background-color: black;
+	height: 111px;
+	padding: 20px;
+	text-align: center;
+	color: white;
+	border-radius: 5px;
+}
+.social-links {
+	margin: 15px;
+	height: auto;
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+	gap: 50px;
+	font-size: 1.75rem;
+}
+.social-links a {
+	color: white;
+}
+.social-links i:hover {
+	color: lightgray;
+}
 /* MAIN END */
