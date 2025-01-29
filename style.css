@@ -251,6 +251,9 @@ td {
 	cursor: pointer;
 	font-size: 1.05rem;
 }
+.sch-header > p:hover {
+	color: lightsalmon;
+}
 .sch-logs {
 	height: 410px;
 	overflow-y: scroll;
