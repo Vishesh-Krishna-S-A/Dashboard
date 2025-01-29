@@ -277,7 +277,7 @@ td {
 /* contact */
 #contact {
 	width: 95%;
-	margin: 100px auto 120px;
+	margin: 100px auto;
 }
 .contact-container {
 	display: grid;
