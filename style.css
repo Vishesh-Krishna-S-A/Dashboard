@@ -21,7 +21,7 @@ main {
 	padding: 20px;
 	margin-top: 20px;
 }
-/* Left Container */
+/* >>> Left Container */
 .left {
 	background-color: black;
 	height: 93vh;
@@ -88,14 +88,13 @@ main {
 .nav > a:hover {
 	color: rgb(217, 217, 217);
 }
-/* Right Container */
+/* >>> Right Container */
 .right {
 	margin: 0 50px;
 }
 /* header */
 header {
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: baseline;
 	margin: 0 0 20px;
