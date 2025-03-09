@@ -38,14 +38,18 @@ main {
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
+	gap: 20px;
 	margin: 10px;
 }
 .profile img {
-	width: 85%;
-	height: 55%;
-	margin-top: 1rem;
+	width: 100%;
+	height: 100%;
 	border: 3px solid white;
 	border-radius: 50%;
+}
+.profile-img {
+	width: 60%;
+	height: 7.5rem;
 }
 .profile p {
 	color: white;
@@ -350,3 +354,55 @@ footer {
 	color: lightgray;
 }
 /* MAIN END */
+
+/* MEDIA QUERIES START */
+@media screen and (max-width: 1024px) {
+	main {
+		display: block;
+	}
+	.left {
+		position: static;
+		height: auto;
+		margin-top: 3.5rem;
+	}
+	.profile {
+		margin-top: 70px;
+	}
+	.profile img {
+		height: 100%;
+		width: 100%;
+	}
+	.profile-img {
+		width: 135px;
+		height: 8.7rem;
+		position: absolute;
+		top: 0.8rem;
+		z-index: 20;
+	}
+	.line {
+		margin-bottom: 10px;
+		width: 95%;
+	}
+	.navigation {
+		display: flex;
+		flex-direction: row;
+		margin: 1.25rem 0 1.87rem;
+		width: 100%;
+	}
+	.navigation i {
+		display: none;
+	}
+	.nav {
+		margin: 0;
+	}
+	.right {
+		margin: 1rem 0 0;
+	}
+	header {
+		gap: 30px;
+		flex-wrap: wrap;
+	}
+}
+
+@media screen and (max-width: 670px) {
+}
